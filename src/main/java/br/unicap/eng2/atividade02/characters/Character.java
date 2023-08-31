@@ -12,4 +12,13 @@ public class Character {
         this.local = local;
         this.possibleChangeLocal = possibleChangeLocal;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public Character setLocation(Location locationChange) {
+        this.local = locationChange;
+        return new Character(this.name, this.local, this.possibleChangeLocal);
+    }
 }
