@@ -1,4 +1,6 @@
-package br.unicap.eng2.atividade02;
+package br.unicap.eng2.atividade02.characters;
+
+import br.unicap.eng2.atividade02.locations.Location;
 
 public class Character {
     private String name;
