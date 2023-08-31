@@ -14,5 +14,6 @@ public class NextStateGenerator {
 
     public Iterable<State> generate() {
         List<State> next = new ArrayList<>();
+        return next; 
     }
 }
