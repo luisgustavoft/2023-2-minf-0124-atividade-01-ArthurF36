@@ -2,6 +2,8 @@ package br.unicap.eng2.atividade02.stategenerators;
 
 import java.util.stream.StreamSupport;
 
+import br.unicap.eng2.atividade02.Location;
+import br.unicap.eng2.atividade02.State;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
