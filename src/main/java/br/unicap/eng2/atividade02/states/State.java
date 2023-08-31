@@ -8,7 +8,10 @@ public class State {
     private Character corn;
     private Character fox;
 
-    public State() {
-
+    public State(Character person, Character chiken, Character corn, Character fox) {
+        this.person = person;
+        this.chiken = chiken;
+        this.corn = corn;
+        this.fox = fox;
     }
 }
